@@ -1,0 +1,7 @@
+---
+layout: base
+---
+{% assign partners = site.partners %}
+{% for partner in partners %}
+    {% include partner.html partner=partner %}
+{% endfor %}
