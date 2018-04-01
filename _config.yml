@@ -42,6 +42,16 @@ defaults:
       path: ""
     values:
       image: /files/facebook.png
+  - scope:
+      path: ""
+      type: partners
+    values:
+      layout: base
+
+collections:
+    partners:
+        output: true
+        permalink: /partenaires/:title
 
 # Build settings
 markdown: kramdown
