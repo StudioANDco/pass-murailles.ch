@@ -46,7 +46,7 @@ defaults:
       path: ""
       type: partners
     values:
-      layout: base
+      layout: partner
 
 collections:
     partners:

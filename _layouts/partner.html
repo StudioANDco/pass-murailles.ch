@@ -1,0 +1,14 @@
+---
+layout: base
+---
+
+<article>
+    {{ content }}
+
+    <div>
+        <p>{{ page.benefit }}</p>
+        <p>{{ page.condition }}</p>
+    </div>
+    <p><a href="{{ page.link }}">{{ page.link }}</a></p>
+    <p><a href="{{ 'offres' | absolute_url }}">Retour</a></p>
+</article>
