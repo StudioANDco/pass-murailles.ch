@@ -32,8 +32,8 @@ facebook:
 google_site_verification: googleddcee30cf477c8ba
 ga: UA-77883422-13
 
-baseurl: ""
-url: "https://pass-murailles.ch"
+baseurl: "pass-murailles.ch"
+url: "https://studioandco.github.io"
 
 exclude:
 
