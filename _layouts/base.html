@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="fr">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# business: http://ogp.me/ns/business#" itemscope itemtype="http://schema.org/WebSite">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {% seo %}
+
+    <meta property="og:type" content="business.business" />
+
+    <meta property="business:contact_data:street_address" content="{{ site.street }}" />
+    <meta property="business:contact_data:locality" content="{{ site.city }}" />
+    <meta property="business:contact_data:postal_code" content="{{ site.zip }}" />
+    <meta property="business:contact_data:country_name" content="{{ site.country }}" />
+    <meta property="place:location:latitude" content="{{ site.latitude }}" />
+    <meta property="place:location:longitude" content="{{ site.longitude }}" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="{{ '/styles/main.css' | absolute_url }}?{{site.time | date: '%s%N'}}" rel="stylesheet">
+    <link href="{{ '/styles/print.css' | absolute_url }}?{{site.time | date: '%s%N'}}" rel="stylesheet" media="print">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <meta name="msapplication-navbutton-color" content="#FFFFFF">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF">
+</head>
+
+<body>
+    <script type="text/javascript">
+        var github_url = 'https://studioandco.github.io/';
+        var current = window.location.href;
+        if(current.indexOf(github_url) === 0) {
+            // window.location.href = current.replace(github_url, '{{ site.url }}/{{ page.url }}');
+        }
+    </script>
+
+    <header>
+        <h1>{{ page.title }}</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="{{ '/' | absolute_url }}">Homepage</a></li>
+        </ul>
+    </nav>
+
+    {{ content }}
+
+    <footer>
+        <address>
+            {{ site.title }}<br>
+            {{ site.street }}<br>
+            {{ site.zip }} {{ site.city }}<br>
+            {{ site.state }} - {{ site.country }}<br>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </address>
+    </footer>
+
+    <script type="text/javascript" src="{{ '/javascripts/main.js' | absolute_url }}?{{site.time | date: '%s%N'}}"></script>
+    <script type="text/javascript">
+        window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+        ga('create', '{{ site.ga }}', 'auto');ga('send', 'pageview');
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+</html>

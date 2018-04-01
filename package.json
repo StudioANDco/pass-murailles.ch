@@ -1,0 +1,12 @@
+{
+  "name": "pass-murailles",
+  "version": "1.0.0",
+  "main": "README.md",
+  "author": "Studio ANDco Sàrl",
+  "license": "private",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "kanbasu": "^2.0.0"
+  }
+}

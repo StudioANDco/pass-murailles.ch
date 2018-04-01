@@ -1,0 +1,83 @@
+title: Pass Murailles
+description: Pass Murailles
+author:
+    name: Studio ANDco Sàrl
+    twitter: ANDco_o
+email: amisdevalere@gmail.com
+lang: fr_CH
+logo: tile.png
+
+seo:
+    type: Business
+
+street: "Avenue du Ritz 35"
+city: "Sion"
+zip: "1950"
+state: "Valais"
+country: "Suisse"
+latitude: "46.235885"
+longitude: "7.3578723"
+
+social:
+  name: Pass Murailles
+  links:
+
+twitter:
+    username: "PassMurailles"
+
+facebook:
+    app_id: PassMurailles
+    publisher: "https://www.facebook.com/andcohello"
+
+google_site_verification: googleddcee30cf477c8ba
+ga: UA-77883422-13
+
+baseurl: ""
+url: "https://pass-murailles.ch"
+
+exclude:
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /files/facebook.png
+
+# Build settings
+markdown: kramdown
+plugins:
+    - jekyll-feed
+    - jekyll-coffeescript
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-seo-tag
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - node_modules
+    - package.json
+
+# Github forced settings
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+    noscript: false
+
+kramdown:
+    input: GFM
+    hard_wrap: false
+
+# Sitemap
+
+sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
