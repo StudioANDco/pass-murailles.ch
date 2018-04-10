@@ -5,6 +5,22 @@
 $blue: #21468C;
 $orange: #FAA829;
 
+@media (max-width: $screen-sm-max) {
+    html {
+        font-size: 95%;
+    }
+
+    .ico--clef {
+        display: none !important;
+    }
+
+    .ico--logo {
+        margin-top: 15px !important;
+        width: 78% !important;
+        color: $blue !important;
+    }
+}
+
 @font-face {
     font-family: 'ClasicaSans';
     src: url('../files/fonts/ClasicaSans-Bold.woff2') format('woff2'),
@@ -72,6 +88,17 @@ body > header {
         }
     }
 }
+
+@media (max-width: $screen-xs-max) {
+    body > header nav a {
+        height: 4.5em;
+
+        &.home {
+            height: 12em;
+        }
+    }
+}
+
 
 .centered {
     margin-left: auto;
