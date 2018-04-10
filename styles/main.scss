@@ -5,19 +5,43 @@
 $blue: #21468C;
 $orange: #FAA829;
 
+[aria-hidden="true"] {
+    display: none !important;
+}
+
+.ico {
+    display: inline-block;
+    vertical-align: middle;
+    pointer-events: none;
+    fill: currentColor;
+    will-change: transform;
+
+    width: 70%;
+}
+
 body > header {
     h1 { display: none; }
 
-    height: 35vh;
+    height: 50vh;
     background: url('http://lorempixel.com/g/1200/420/') no-repeat no-repeat;
     background-size: cover;
 
     margin-bottom: 3em;
 
     nav {
-        padding-top: 1.5em;
+        padding-top: 0.5em;
+
+        .ico--clef {
+            color: $blue;
+        }
+
+        .ico--logo {
+            color: $orange;
+            margin-top: -45px;
+        }
 
         a {
+            margin-top: 60px;
             display: block;
             padding: 0.7em;
             width: 100%;
@@ -25,6 +49,12 @@ body > header {
             color: white;
             font-weight: bold;
             text-decoration: none;
+        }
+
+        a.home {
+            padding: 0;
+            margin: 0;
+            span { display: none; }
         }
     }
 }
