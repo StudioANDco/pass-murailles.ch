@@ -1,3 +1,115 @@
 ---
 ---
 @import '../_sass/main';
+
+$blue: #21468C;
+$orange: #FAA829;
+
+body > header {
+    h1 { display: none; }
+
+    height: 35vh;
+    background: url('http://lorempixel.com/g/1200/420/') no-repeat no-repeat;
+    background-size: cover;
+
+    margin-bottom: 3em;
+
+    nav {
+        padding-top: 1.5em;
+
+        a {
+            display: block;
+            padding: 0.7em;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    }
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-orange {
+    background-color: $orange;
+    color: white;
+}
+
+.bg-blue {
+    background-color: $blue;
+    color: white;
+}
+
+.cover-image {
+    width: 100%;
+}
+
+.partner {
+    margin-bottom: 4em;
+}
+
+@media (min-width: $screen-md-min) {
+    .partner:nth-child(2n) .partner__content {
+        order: 2;
+    }
+}
+
+form {
+    label { display: none; }
+
+    input, textarea, select {
+        width: 100%;
+        background-color: $blue;
+        color: white;
+        padding: 0.8em 0.5em;
+        margin: 0.7em 0;
+        border: none;
+
+        &::placeholder {
+            color: lightgrey;
+        }
+    }
+
+    textarea {
+        height: 8em;
+    }
+}
+
+footer {
+    position: relative;
+    margin-top: 10em;
+
+    &::before {
+        content: ' ';
+        display: block;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        background: url('../files/footer.png') center center no-repeat no-repeat;
+        position: relative;
+    }
+
+    &::after {
+        content: ' ';
+        display: block;
+        position: absolute;
+        top: -80px;
+        left: 0;
+        right: 0;
+        height: 187px;
+        z-index: -1;
+        background: url('../files/pattern.png');
+    }
+
+    address {
+        margin-top: -100px;
+        padding-top: 125px;
+        padding-bottom: 1.5em;
+        text-align: center;
+        font-style: normal;
+    }
+}

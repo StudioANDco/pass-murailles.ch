@@ -1,8 +1,16 @@
-<article>
-    <header>
-        <h1>{{ partner.title }}</h1>
-    </header>
-    {{ partner.content }}
+<article class="grid grid--tight partner">
+    <div class="partner__content grid__item w-1/1 md-w-1/2">
+        <div class="box bg-{%cycle 'orange', 'blue' %}">
+            <header>
+                <h1>{{ partner.title }}</h1>
+            </header>
+            {{ partner.content }}
 
-    <p><a href="{{ partner.url | absolute_url }}">Détails</a></p>
+            <p><a href="{{ partner.url | absolute_url }}">Détails</a></p>
+        </div>
+    </div>
+
+    <div class="partner__image grid__item w-1/1 md-w-1/2">
+        <img class="cover-image" src="http://lorempixel.com/g/598/{% cycle '350', '598', '700' %}/" alt="{{ partner.title }}">
+    </div>
 </article>
