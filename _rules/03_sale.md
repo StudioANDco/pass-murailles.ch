@@ -1,7 +1,5 @@
 ---
-title: Regle
+title: Vente
 ---
-* Le Passe Muraille est valble que une année Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-* tincidunt ut laoreet dolore magna aliquam erat
-* Vlutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-* ullamcorper suscipit lobortis nisl ut
+- Le pass peut s’acquérir uniquement online, sur le site : [www.pass-murailles.ch](http://www.pass-murailles.ch)
+- La livraison se fait par courrier postal après réception du paiement par versement bancaire.

@@ -5,6 +5,20 @@
 $blue: #21468C;
 $orange: #FAA829;
 
+@font-face {
+    font-family: 'ClasicaSans';
+    src: url('../files/fonts/ClasicaSans-Bold.woff2') format('woff2'),
+    url('../files/fonts/ClasicaSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1, h2, h3 {
+    font-family: 'ClasicaSans', $font-family-default;
+    font-weight: bold;
+    font-style: normal;
+}
+
 [aria-hidden="true"] {
     display: none !important;
 }
@@ -23,7 +37,7 @@ body > header {
     h1 { display: none; }
 
     height: 50vh;
-    background: url('http://lorempixel.com/g/1200/420/') no-repeat no-repeat;
+    background: url('https://picsum.photos/g/1200/420?blur') no-repeat no-repeat;
     background-size: cover;
 
     margin-bottom: 3em;
