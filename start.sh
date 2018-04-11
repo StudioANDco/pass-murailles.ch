@@ -19,7 +19,7 @@ if [[ ! -x "$BROWSERSYNC" ]]; then
     ${NPM} install
 fi
 
-JEKYLL="./.bundle/packages/bundle/ruby/2.5.0/bin/jekyll"
+JEKYLL="./.bundle/packages/ruby/2.5.0/bin/jekyll"
 if [[ ! -x "$JEKYLL" ]]; then
     ${BUNDLE} install --path .bundle/packages
 fi
@@ -29,5 +29,5 @@ if [[ -n "$RBENV" ]]; then
     COMMAND="$RBENV exec $COMMAND"
 fi
 
-${COMMAND} &
+${COMMAND} --baseurl / &
 ${BROWSERSYNC} start --files "_site/" --proxy "localhost:4000" --reload-debounce 600
