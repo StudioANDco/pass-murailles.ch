@@ -14,8 +14,8 @@ if [[ -z "$NPM" ]]; then
     exit 1
 fi
 
-BROWSERSYNC="./node_modules/.bin/browser-sync"
-if [[ ! -x "$BROWSERSYNC" ]]; then
+KANBASU="./node_modules/kanbasu"
+if [[ ! -d "$KANBASU" ]]; then
     ${NPM} install
 fi
 
@@ -24,10 +24,9 @@ if [[ ! -x "$JEKYLL" ]]; then
     ${BUNDLE} install --path .bundle/packages
 fi
 
-COMMAND="bundle exec jekyll serve"
+COMMAND="bundle exec jekyll serve --livereload --baseurl ''"
 if [[ -n "$RBENV" ]]; then
     COMMAND="$RBENV exec $COMMAND"
 fi
 
-${COMMAND} --baseurl / &
-${BROWSERSYNC} start --files "_site/" --proxy "localhost:4000" --reload-debounce 600
+${COMMAND}
