@@ -65,11 +65,11 @@ layout: base
                 13h30-17h
             </p>
             <p>
-                Amis de Valère<br>
-                Rue des châteaux 14<br>
-                1920 Sion<br>
+                la Société des Amis de Valère<br>
+                Rue des Châteaux 14<br>
+                1950 Sion<br>
                 amisdevalere@gmail.com<br>
-                +41 27 755 84 59
+                +41 27 606 46 82
             </p>
         </div>
     </div>
@@ -82,8 +82,8 @@ layout: base
 <div class="grid grid--multiline grid--even grid--tight mrgt++">
     {% assign rules = site.rules %}
     {% for rule in rules %}
-    <div class="grid__item lg-w-1/3">
-        <div class="box bg-{%cycle 'orange', 'blue' %}">
+    <div class="grid__item lg-w-1/2">
+        <div class="box bg-{%cycle 'orange', 'blue', 'blue', 'orange' %}">
             <h3>{{ rule.title }}</h3>
             {{ rule.content }}
         </div>
