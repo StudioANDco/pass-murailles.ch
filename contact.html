@@ -6,8 +6,8 @@ layout: base
     <div class="grid__item md-w-1/2 bg-orange">
         <form action="contact.php" class="box grid">
             <div class="grid__item w-1/1">
-                <label for="name">Nom</label>
-                <input placeholder="Nom" id="name" name="name" type="text">
+                <label for="name">Nom et prénom</label>
+                <input placeholder="Nom et prénom" id="name" name="name" type="text">
             </div>
 
             <div class="grid__item w-1/1">
@@ -33,16 +33,24 @@ layout: base
             <div class="grid__item w-1/1">
                 <label for="reason">Sujet</label>
                 <select id="reason" name="reason">
-                    <option>Veuillez choisir un sujet</option>
-                    <option>Demande d'informations</option>
-                    <option>Commande</option>
-                    <option>Autre</option>
+                    <option value="none">Veuillez choisir un sujet</option>
+                    <option value="information">Demande d'informations</option>
+                    <option value="commande">Commande</option>
+                    <option value="autre">Autre</option>
                 </select>
             </div>
 
             <div class="grid__item md-w-1/1">
                 <label for="message">Message</label>
                 <textarea placeholder="Votre message" id="message" name="message"></textarea>
+            </div>
+
+            <div class="grid__item w-1/1 form__conditions">
+                <div class="form__checkbox">
+                    <input id="conditions" name="conditions" type="checkbox">
+                    <label for="conditions">&nbsp;</label>
+                </div>
+                <label for="conditions">J'accepte les conditions générales de ventes</label>
             </div>
 
             <div class="grid__item md-w-1/1">
