@@ -123,6 +123,31 @@ body > header {
     margin-bottom: 4em;
 }
 
+.partner-info {
+    border-left: 4px solid $blue;
+    padding-left: 1em;
+
+    .partner-info__benefit {
+        color: $blue;
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 0.3em;
+    }
+
+    .bg-blue & {
+        border-color: $orange;
+        .partner-info__benefit {
+            color: $orange;
+        }
+    }
+
+    .partner-info__detail {
+        color: #f8f8f8;
+        margin: 0;
+    }
+}
+
+
 @media (min-width: $screen-md-min) {
     .partner:nth-child(2n) .partner__content {
         order: 2;

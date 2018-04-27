@@ -1,8 +1,9 @@
 ---
 title: Les Riches Heures de Valère
-link: http://lesrichesheuresdevalere.ch/
-benefit: 1 entrée gratuite par saison
-condition: Réservations à la caisse du concert, selon disponibilité
+link: lesrichesheuresdevalere.ch
+benefit: 1 concert gratuit
+condition: Billets à la caisse du concert, selon disponibilité
+value: CHF 30.- à CHF 50.-
 ---
 
 Grâce à une programmation
@@ -15,9 +16,11 @@ encore trop rarement
 proposé au public valaisan.
 Unissant leurs forces à celles
 d’autres partenaires culturels,
-elles offrent, depuis bientôt dix
-ans, dans le cadre magique de
-la basilique de Valère (11ème
-siècle) et de la vieille ville de
-Sion (église des Jésuites), des
-moments d’émotion et de spiritualité
+elles offrent, depuis bientôt
+dix ans, dans le cadre magique
+de la basilique de Valère (XIème
+siècle) et de la vieille ville
+de Sion (église des Jésuites),
+des moments d’émotion et de
+spiritualité.
+

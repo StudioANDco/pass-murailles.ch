@@ -6,10 +6,15 @@
             </header>
             {{ partner.content }}
 
-            <div style="text-align: right;">
-                <p style="margin-bottom: 0;">{{ partner.benefit }}</p>
-                <p>{{ partner.condition }}</p>
+            <div class="partner-info">
+                <p class="partner-info__benefit">{{ partner.benefit }}</p>
+                <p class="partner-info__detail">{{ partner.condition }}</p>
+                <p class="partner-info__detail">(Valeur: {{ partner.value }})</p>
             </div>
+
+            <p class="partner__link">
+                <a href="http://{{ partner.link }}">{{ partner.link }}</a>
+            </p>
         </div>
     </div>
 

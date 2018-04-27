@@ -1,8 +1,9 @@
 ---
 title: Festival de l'orgue ancien
-link: http://www.orgueancien-valere.ch/
-benefit: 1 entrée gratuite
-condition: Réservation obligatoire 3 jours à l’avance
+link: orgueancien-valere.ch
+benefit: 1 concert gratuit
+condition: "Réservation : 3 jours à l’avance ou directement sur place lors des concerts, selon disponibilité"
+value: CHF 25.-
 ---
 
 Fondé en 1969, le festival de
