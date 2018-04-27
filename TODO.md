@@ -1,5 +1,4 @@
 * Mega-menu "Offres" avec lien vers chaque partenaires, essayé par catégorie si trop gros
-* Ajouter les sponsors après la liste des offres (reprendre logo dans la brochure finale)
 * Aussi afficher la clef en version mobile
 
 * Contacter Jean-Marc Jacquod pour images (menu et landing) : jean-marc.jacquod@siontourisme.ch

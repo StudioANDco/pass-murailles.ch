@@ -147,6 +147,10 @@ body > header {
     }
 }
 
+.sponsors {
+    h1 { color: $blue; }
+    img {margin: 0 auto; }
+}
 
 @media (min-width: $screen-md-min) {
     .partner:nth-child(2n) .partner__content {
