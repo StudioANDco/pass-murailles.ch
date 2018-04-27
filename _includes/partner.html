@@ -3,13 +3,16 @@
         <div class="box bg-{%cycle 'orange', 'blue' %}">
             <header>
                 <h1>{{ partner.title }}</h1>
+                {% if partner.subtitle %}<h2>{{ partner.subtitle }}</h2>{% endif %}
             </header>
             {{ partner.content }}
 
             <div class="partner-info">
                 <p class="partner-info__benefit">{{ partner.benefit }}</p>
                 <p class="partner-info__detail">{{ partner.condition }}</p>
-                <p class="partner-info__detail">(Valeur: {{ partner.value }})</p>
+                {% if partner.value %}
+                    <p class="partner-info__detail">(Valeur: {{ partner.value }})</p>
+                {% endif %}
             </div>
 
             <p class="partner__link">
