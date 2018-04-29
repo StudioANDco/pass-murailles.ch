@@ -10,14 +10,21 @@ $orange: #FAA829;
         font-size: 95%;
     }
 
-    .ico--clef {
-        display: none !important;
+    .home {
+        position: relative;
     }
 
-    .ico--logo {
+    .ico--clef, .ico--logo {
         margin-top: 15px !important;
         width: 78% !important;
         color: $blue !important;
+    }
+
+    .ico--logo {
+        color: $orange !important;
+        position: absolute;
+        top: 37%;
+        left: 25px;
     }
 }
 
