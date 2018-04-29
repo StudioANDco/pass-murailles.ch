@@ -12,19 +12,19 @@ $orange: #FAA829;
 
     .home {
         position: relative;
-    }
 
-    .ico--clef, .ico--logo {
-        margin-top: 15px !important;
-        width: 78% !important;
-        color: $blue !important;
-    }
+        .ico--clef, .ico--logo {
+            margin-top: 15px !important;
+            width: 78% !important;
+            color: $blue !important;
+        }
 
-    .ico--logo {
-        color: $orange !important;
-        position: absolute;
-        top: 37%;
-        left: 25px;
+        .ico--logo {
+            color: $orange !important;
+            position: absolute;
+            top: 37%;
+            left: 25px;
+        }
     }
 }
 
@@ -280,6 +280,7 @@ form {
             display: inline-block;
             font-size: 0.8rem;
             padding: 2px 0;
+            height: auto;
             margin: 0;
             text-align: left;
         }
@@ -295,12 +296,11 @@ form {
         width: 300%;
         margin-left: -100%;
 
-        columns: 3;
+        columns: 3 220px;
 
         a { font-size: inherit; }
     }
 }
-
 
 footer {
     position: relative;
