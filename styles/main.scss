@@ -276,6 +276,8 @@ form {
         column-rule: 1px dotted #ddd;
 
         a {
+            column-span: all;
+            display: inline-block;
             font-size: 0.8rem;
             padding: 2px 0;
             margin: 0;
