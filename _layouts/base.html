@@ -54,7 +54,15 @@
                     </a>
                 </div>
                 <div class="w-1/3">
-                    <a class="bg-orange" href="{{ '/offres' | absolute_url }}">Offres</a>
+                    <div class="dropdown bg-orange">
+                        <a class="dropdown__title" href="{{ '/offres' | absolute_url }}">Offres</a>
+                        <ul class="dropdown__menu">
+                            {% assign partners = site.partners %}
+                            {% for partner in partners %}
+                                <li><a href="{{ '/offres' | absolute_url }}#{{ partner.slug }}">{{ partner.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
                 </div>
                 <div class="w-1/3">
                     <a class="bg-blue" href="{{ '/contact' | absolute_url }}">Contact / Commandes</a>
