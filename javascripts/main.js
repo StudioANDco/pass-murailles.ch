@@ -1,9 +1,32 @@
 document.addEventListener('DOMContentLoaded',function() {
-    document.querySelector('select[name="reason"]').onchange = reasonChange;
-    reasonChange();
+    var select = document.querySelector('select[name="reason"]');
+    if(select) {
+        select.onchange = reasonChange;
+        reasonChange();
 
-    document.querySelector('form').addEventListener('submit', formSubmit);
+        document.querySelector('form').addEventListener('submit', formSubmit);
+    }
+
+    if(isTouchDevice()) {
+        document.querySelector('.dropdown').addEventListener('click', clickDropdown);
+    }
 },false);
+
+function isTouchDevice(){
+    return typeof window.ontouchstart !== 'undefined';
+}
+
+var firstDropdownClick = true;
+function clickDropdown(event) {
+    if(event.target.classList.contains('dropdown__title') && firstDropdownClick) {
+        firstDropdownClick = false;
+        event.preventDefault();
+
+        setTimeout(function() {
+            firstDropdownClick = true;
+        }, 2000);
+    }
+}
 
 function reasonChange() {
     var reason = event.target.value;
