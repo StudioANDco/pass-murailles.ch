@@ -23,6 +23,6 @@
 
     <div class="partner__image grid__item w-1/1 md-w-1/2">
         {% assign image = '/files/offres/' | append: partner.slug | append: '.jpg' %}
-        <img class="cover-image" src="{{ image | absolute_path  }}" alt="{{ partner.title }}">
+        <img class="cover-image" src="{{ image | absolute_url  }}" alt="{{ partner.title }}">
     </div>
 </article>
