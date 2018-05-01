@@ -10,7 +10,16 @@ document.addEventListener('DOMContentLoaded',function() {
     if(isTouchDevice()) {
         document.querySelector('.dropdown').addEventListener('click', clickDropdown);
     }
+
+    setTimeout(changeSlideshow, 5000);
 },false);
+
+var slideshowIndex = 1;
+function changeSlideshow() {
+    slideshowIndex += 1;
+    var url = 'background: url("../files/slideshow/0' + slideshowIndex + '.jpg") no-repeat no-repeat !important;';
+    document.querySelector('body > header').setAttribute('style', url);
+}
 
 function isTouchDevice(){
     return typeof window.ontouchstart !== 'undefined';
