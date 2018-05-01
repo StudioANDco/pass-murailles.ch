@@ -165,7 +165,11 @@ body > header {
 
 .sponsors {
     h1 { color: $blue; }
-    img {margin: 0 auto; }
+    img {
+        margin: 0 auto;
+        width: 140px;
+        max-width: 100%;
+    }
 }
 
 @media (min-width: $screen-md-min) {
