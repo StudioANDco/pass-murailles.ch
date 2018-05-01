@@ -22,6 +22,7 @@
     </div>
 
     <div class="partner__image grid__item w-1/1 md-w-1/2">
-        <img class="cover-image" src="https://picsum.photos/g/598/{% cycle '350', '598', '700' %}?blur" alt="{{ partner.title }}">
+        {% assign image = '/files/offres/' | append: partner.slug | append: '.jpg' %}
+        <img class="cover-image" src="{{ image | absolute_path  }}" alt="{{ partner.title }}">
     </div>
 </article>
