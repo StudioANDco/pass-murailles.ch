@@ -17,7 +17,12 @@ document.addEventListener('DOMContentLoaded',function() {
 var slideshowIndex = 1;
 function changeSlideshow() {
     slideshowIndex += 1;
-    var url = 'background: url("../files/slideshow/0' + slideshowIndex + '.jpg") no-repeat no-repeat !important;';
+    if(slideshowIndex > 4) {
+        slideshowIndex = 1;
+    }
+
+    var base = document.querySelector('body').getAttribute('data-baseurl');
+    var url = 'background: url("' + base + '/files/slideshow/0' + slideshowIndex + '.jpg") no-repeat no-repeat !important;';
     document.querySelector('body > header').setAttribute('style', url);
 }
 
