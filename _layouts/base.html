@@ -32,7 +32,7 @@
         var github_url = 'https://studioandco.github.io/';
         var current = window.location.href;
         if(current.indexOf(github_url) === 0) {
-            // window.location.href = current.replace(github_url, '{{ site.url }}/{{ page.url }}');
+            window.location.href = current.replace(github_url, '{{ site.url }}/{{ page.url }}');
         }
     </script>
 
