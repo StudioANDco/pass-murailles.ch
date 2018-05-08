@@ -178,6 +178,41 @@ body > header {
     }
 }
 
+.map-index {
+    list-style: none;
+    columns: 4 200px;
+
+    li {
+        column-span: all;
+        display: inline-block;
+        min-width: 200px;
+        margin: 3px 0;
+        position: relative;
+        padding-left: 35px;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    .map-index__number {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 27px;
+        width: 27px;
+        display: inline-block;
+        border-radius: 30px;
+        background-color: $blue;
+        text-align: center;
+        line-height: 30px;
+        color: white;
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+}
+
 form {
     label { display: none; }
 

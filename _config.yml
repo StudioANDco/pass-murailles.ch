@@ -1,5 +1,5 @@
-title: Pass Murailles
-description: Pass Murailles
+title: Pass murailles
+description: Pass murailles
 author:
     name: Studio ANDco Sàrl
     twitter: ANDco_o
@@ -10,7 +10,7 @@ logo: tile.png
 seo:
     type: Business
 
-street: "Rue des Châteaux 4"
+street: "Rue des Châteaux 14"
 city: "Sion"
 zip: "1950"
 state: "Valais"
@@ -19,7 +19,7 @@ latitude: "46.235885"
 longitude: "7.3578723"
 
 social:
-  name: Pass Murailles
+  name: Pass murailles
   links:
 
 twitter:

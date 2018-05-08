@@ -3,6 +3,27 @@ layout: base
 ---
 
 <div class="grid grid--tight">
+    <div class="grid__item md-w-1/2 bg-blue">
+        <div class="box">
+            <h4>Point de vente</h4>
+            <p>
+                Office du Tourisme de Sion<br>
+                Place de la Planta<br>
+            </p>
+            <h4>Informations</h4>
+            <p>
+                Société des Amis de Valère<br>
+                Rue des Châteaux 14<br>
+                1950 Sion<br>
+                amisdevalere@gmail.com<br>
+                +41 27 606 46 82
+            </p>
+            <p>
+                Mardi et Jeudi<br>
+                11h-12h30
+            </p>
+        </div>
+    </div>
     <div class="grid__item md-w-1/2 bg-orange">
         <form action="contact.php" method="POST" class="box grid">
             <div class="grid__item w-1/1">
@@ -57,26 +78,23 @@ layout: base
                 <input type="submit" value="Envoyer">
             </div>
         </form>
-
-        <div class="box">
-            <p>
-                Du lundi au vendredi<br>
-                9h00-12h<br>
-                13h30-17h
-            </p>
-            <p>
-                la Société des Amis de Valère<br>
-                Rue des Châteaux 14<br>
-                1950 Sion<br>
-                amisdevalere@gmail.com<br>
-                +41 27 606 46 82
-            </p>
-        </div>
     </div>
 
-    <div class="grid__item md-w-1/2">
-        <img class="cover-image" src="{{ '/files/carte.png' | absolute_url }}">
-    </div>
+</div>
+
+<div class="w-1/1 mrgt++">
+    <ul class="map-index">
+        {% assign partners = site.partners %}
+        {% for partner in partners %}
+            <li>
+                <a href="{{ '/offres' | absolute_url }}#{{ partner.slug }}">
+                    <span class="map-index__number">{{ partner.map_index | default:forloop.index }}</span>
+                    {{ partner.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+    <img class="cover-image" src="{{ '/files/carte.jpg' | absolute_url }}">
 </div>
 
 <div class="grid grid--multiline grid--even grid--tight mrgt++">

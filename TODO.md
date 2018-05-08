@@ -1,4 +1,4 @@
-* Contacter Jean-Marc Jacquod pour images (menu et landing) : jean-marc.jacquod@siontourisme.ch
-
-* Envoyer accusé de recection formulaire de contact
-* Demander e-mail ou envoyer les contacts
+* soutiens :
+** ajouter office du tourisme
+** changer le logo de la bourgeoisie
+** Ajouter des liens

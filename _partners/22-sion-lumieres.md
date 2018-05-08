@@ -1,6 +1,6 @@
 ---
 title: Sion en Lumières
-link: sionenlumieres.ch
+link: www.sionenlumieres.ch
 benefit: Spectacle gratuit
 ---
 
