@@ -1,8 +1,7 @@
 ---
 title: Les Amis du Musée de la nature du Valais
 link: amismuseenature.ch
-benefit: ou 1 an
-         d’adhésion gratuite
+benefit: ou 1 année d’adhésion gratuite
 condition: "Renseignements : 027 606 47 31"
 value: CHF 20.- à CHF 30.-
 ---

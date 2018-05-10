@@ -1,7 +1,7 @@
 ---
 title: Le Petithéâtre de Sion
 link: petitheatre.ch
-benefit: 1 entrée offerte
+benefit: 1 entrée gratuite
 condition: "Valable pour une personne pour une représentation<br> Réservation obligatoire"
 value: CHF 30.-
 ---
