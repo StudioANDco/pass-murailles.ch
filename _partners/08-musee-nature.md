@@ -14,8 +14,8 @@ aussi être prêt à la réfl exion et
 au questionnement.
 
 Fini les traditionnelles vitrines
-d’animaux soigneusement classés
-: place aux yeux et aux sens !
+d’animaux soigneusement classés : 
+place aux yeux et aux sens !
 Les différents milieux naturels du
 Valais tiennent lieu de décor. Le
 parcours évoque les relations

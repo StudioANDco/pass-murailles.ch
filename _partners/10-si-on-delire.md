@@ -3,7 +3,7 @@ title: Si on délire
 subtitle: (Office du tourisme)
 link: siontourisme.ch
 benefit: 1 entrée gratuite pour 2 personnes
-condition: "Réservation obligatoire Offi ce du Tourisme de Sion 027 327 77 27"
+condition: "Réservation obligatoire Office du Tourisme de Sion 027 327 77 27"
 value: CHF 20.-
 ---
 

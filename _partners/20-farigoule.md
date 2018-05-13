@@ -16,6 +16,7 @@ salées, des sardines, diverses
 huiles d’olive et tapenades...
 de quoi réjouir vos papilles et
 faire plaisir à vos amis !
+
 La boutique vous propose
 également des savonnettes
 parfumées, des cosmétiques,
