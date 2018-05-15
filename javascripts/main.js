@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded',function() {
         document.querySelector('.dropdown').addEventListener('click', clickDropdown);
     }
 
-    // setInterval(changeSlideshow, 5000);
+    setInterval(changeSlideshow, 5000);
 },false);
 
 var slideshowIndex = 1;

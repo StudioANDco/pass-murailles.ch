@@ -103,7 +103,19 @@ layout: base
         <li><span class="map-index__number">17</span>Sion en Lumières</li>
         <li><span class="map-index__number map-index__number--office">i</span>Office du Tourisme (Si on délire)</li>
     </ul>
-    <img class="cover-image" src="{{ '/files/carte.jpg' | absolute_url }}">
+
+    <div class="zoom-container">
+        <div id="image-stage" class="image-stage">
+            <div class="image-wrap">
+                <img class="image cover-image" src="{{ '/files/carte.jpg' | absolute_url }}" alt="Pass murailles - Carte des offres">
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="control-in" class="control control-in"><img src="{{ '/files/zoom/zoom-in.svg' | absolute_url }}" alt="Zoom In"></button>
+            <button id="control-out" class="control control-out"><img src="{{ '/files/zoom/zoom-out.svg' | absolute_url }}" alt="Zoom Out"></button>
+        </div>
+    </div>
 </div>
 
 <div class="grid grid--multiline grid--even grid--tight mrgt++">
