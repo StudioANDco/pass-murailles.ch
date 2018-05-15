@@ -1,7 +1,7 @@
 ---
 title: Le Pénitencier
 subtitle: Centre d’expositions des Musées cantonaux
-link: musee-valais.ch
+link: musees-valais.ch
 benefit: 1 entrée gratuite
 condition: ""
 value: CHF 8.-

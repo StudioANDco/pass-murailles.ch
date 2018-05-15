@@ -1,6 +1,6 @@
 ---
 title: Musée de la nature du Valais
-link: musee-valais.ch
+link: musees-valais.ch
 benefit: 1 entrée gratuite
 condition: ""
 value: CHF 8.-
