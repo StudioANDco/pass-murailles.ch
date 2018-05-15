@@ -210,6 +210,17 @@ body > header {
         color: white;
         font-weight: bold;
         font-size: 0.8rem;
+
+        &.map-index__number--office {
+            border: 2px solid $blue;
+            height: 25px;
+            width: 25px;
+            line-height: 23px;
+            color: $blue;
+            font-weight: bold;
+            font-size: 20px;
+            background-color: white;
+        }
     }
 }
 

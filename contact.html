@@ -84,15 +84,24 @@ layout: base
 
 <div class="w-1/1 mrgt++">
     <ul class="map-index">
-        {% assign partners = site.partners %}
-        {% for partner in partners %}
-            <li>
-                <a href="{{ '/offres' | absolute_url }}#{{ partner.slug }}">
-                    <span class="map-index__number">{{ partner.map_index | default:forloop.index }}</span>
-                    {{ partner.title }}
-                </a>
-            </li>
-        {% endfor %}
+        <li><span class="map-index__number">1</span>Basilique de Valère</li>
+        <li><span class="map-index__number">2</span>Eglise des Jésuites</li>
+        <li><span class="map-index__number">3</span>Théâtre de Valère</li>
+        <li><span class="map-index__number">4</span>Petithéâtre de Sion</li>
+        <li><span class="map-index__number">5</span>Musée d’art du Valais</li>
+        <li><span class="map-index__number">6</span>Musée d’histoire du Valais</li>
+        <li><span class="map-index__number">7</span>Musée de la nature du Valais</li>
+        <li><span class="map-index__number">8</span>Le Pénitencier</li>
+        <li><span class="map-index__number">9</span>Château de Tourbillon</li>
+        <li><span class="map-index__number">10</span>Open Air Cinema Sion</li>
+        <li><span class="map-index__number">11</span>Escape room Sion</li>
+        <li><span class="map-index__number">12</span>L’Enclos de Valère</li>
+        <li><span class="map-index__number">13</span>Le Café des Châteaux</li>
+        <li><span class="map-index__number">14</span>La Cave de Tous Vents</li>
+        <li><span class="map-index__number">15</span>La Farigoule</li>
+        <li><span class="map-index__number">16</span>L’atelier-expo Othal</li>
+        <li><span class="map-index__number">17</span>Sion en Lumières</li>
+        <li><span class="map-index__number map-index__number--office">i</span>Office du Tourisme (Si on délire)</li>
     </ul>
     <img class="cover-image" src="{{ '/files/carte.jpg' | absolute_url }}">
 </div>
