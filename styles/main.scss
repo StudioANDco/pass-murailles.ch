@@ -43,7 +43,7 @@ h1, h2, h3 {
     font-style: normal;
 }
 
-[aria-hidden="true"] {
+:not(svg)[aria-hidden="true"] {
     display: none !important;
 }
 
