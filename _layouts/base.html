@@ -76,13 +76,16 @@
     </div>
 
     <footer>
-        <address class="bg-blue centered">
-            {{ site.title }}<br>
-            {{ site.street }}<br>
-            {{ site.zip }} {{ site.city }}<br>
-            {{ site.state }} - {{ site.country }}<br>
-            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        </address>
+        <div class="bg-blue centered">
+            <address>
+                {{ site.title }}<br>
+                {{ site.street }}<br>
+                {{ site.zip }} {{ site.city }}<br>
+                {{ site.state }} - {{ site.country }}<br>
+                <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </address>
+            <p class="andco">Réalisation du site Internet par le <a href="https://andco.ch">Studio ANDco</a></p>
+        </div>
     </footer>
 
     <script type="text/javascript" src="{{ '/javascripts/main.js' | absolute_url }}?{{site.time | date: '%s%N'}}"></script>
