@@ -74,17 +74,19 @@ function pan(e) {
     setTransform(pan);
 }
 
-plus.addEventListener('click', startZoom);
-minus.addEventListener('click', stopZoom);
+if(plus) plus.addEventListener('click', startZoom);
+if (minus) minus.addEventListener('click', stopZoom);
 
+if(product) {
 // Desktop
-product.addEventListener("mousedown", startPan);
-product.addEventListener("mouseup", stopPan);
-product.addEventListener("mouseleave", stopPan);
-product.addEventListener("mousemove", pan);
+    product.addEventListener("mousedown", startPan);
+    product.addEventListener("mouseup", stopPan);
+    product.addEventListener("mouseleave", stopPan);
+    product.addEventListener("mousemove", pan);
 
 // Touch
-product.addEventListener("touchstart", startPan);
-product.addEventListener("touchend", stopPan);
-product.addEventListener("touchcancel", stopPan);
-product.addEventListener("touchmove", pan);
+    product.addEventListener("touchstart", startPan);
+    product.addEventListener("touchend", stopPan);
+    product.addEventListener("touchcancel", stopPan);
+    product.addEventListener("touchmove", pan);
+}
