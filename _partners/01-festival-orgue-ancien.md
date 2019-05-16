@@ -1,5 +1,5 @@
 ---
-title: Festival de l'orgue ancien
+title: Festival International de l’Orgue de Valère
 link: orgueancien-valere.ch
 benefit: 1 concert gratuit
 condition: "Réservation : 3 jours à l’avance ou directement sur place lors des concerts, selon disponibilité"
