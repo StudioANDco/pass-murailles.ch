@@ -13,7 +13,7 @@ ensemble, au cœur de la vieille
 ville de Sion. Nous vous accueillons
 à tour de rôle : les mardis
 et vendredis Christine vous
-recevra, les mercredis et jeudis,
+recevra et les jeudis,
 vous y rencontrerez Myriam.
 
 Nous organisons des expositions
@@ -21,9 +21,8 @@ de photos, peintures,
 sculptures, du tournage sur
 bois, marqueterie et autres au
 gré de nos rencontres !
+Les horaires: le mardi, jeudi et
+vendredi de 14:00 à 18:00.
 
-Les horaires: le mardi, jeudi,
-vendredi de 14:00 à 18:00 et
-le mercredi de 14:00 à 16:00.
 Soyez les bienvenus dans notre
-espace, à bientôt 
+espace, à bientôt !

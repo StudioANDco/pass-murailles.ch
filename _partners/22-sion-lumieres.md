@@ -12,6 +12,8 @@ ainsi qu’une petite rue typique,
 par le biais d’un spectacle son
 et lumières.
 
-Les jeudis, vendredis et samedis
-soirs à 22h15 au Prélet du
+Le spectacle BACH est présenté du
+18 juillet au 7 septembre 2019,
+les jeudis, vendredis et samedis
+à 22h15 sur le Prélet du
 Château de Valère.

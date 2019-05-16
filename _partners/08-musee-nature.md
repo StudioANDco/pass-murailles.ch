@@ -21,12 +21,11 @@ Valais tiennent lieu de décor. Le
 parcours évoque les relations
 que l’homme a tissées avec son
 environnement, des origines à
-nos jours. La mise en scène explique
-et interroge notre rapport
-avec la nature. Absentes au dé-
-part, les barrières entre le public
-et les animaux sont de plus en
-plus présentes, symbolisant la
-distance qui se fait toujours plus
-grande entre l’homme et son
-environnement.
+nos jours. En interrogeant nos
+rapports toujours plus distants
+avec la nature, l’exposition se
+conclut sur l’Anthropocène : cette
+nouvelle période géologique
+caractérisée par l’impact des
+activités humaines sur le système
+Terre. 

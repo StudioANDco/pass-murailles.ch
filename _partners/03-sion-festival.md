@@ -17,5 +17,5 @@ Sous forme de concert avec
 orchestre, de musique de
 chambre ou encore de projets
 originaux, osez la découverte
-au Théâtre de Valère du 15
-août au 2 septembre 2018 !
+au Théâtre de Valère du
+16 août au 1er septembre 2019 !

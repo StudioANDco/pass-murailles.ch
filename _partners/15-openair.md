@@ -6,11 +6,11 @@ condition: "offertes à l’achat d’un billet <br> Offre valable à chaque vis
 value: CHF 8.-
 ---
 
-Du 16 au 29 juillet 2018,
+Du 17 au 31 juillet 2019,
 l’ Open Air Cinema Sion vous
 donne rendez-vous sur la Place
 de la Majorie, au cœur de la
-vieille ville sédunoise. Au programme : 
+vieille ville sédunoise. Au programme :
 une sélection des
 meilleurs films de l’année, tous
 genres confondus, ainsi que de

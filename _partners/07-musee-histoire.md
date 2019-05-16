@@ -21,8 +21,8 @@ uniques au monde, certaines
 pièces, comme les stèles du
 Petit-Chasseur, la salle du Trésor
 ouverte récemment ou le mobilier
-et l’armement du Moyen-Age, mé-
-ritent à elles seules le détour.
+et l’armement du Moyen Age, méritent
+à elles seules le détour.
 
 La présentation actuelle est logée
 dans les anciennes maisons des

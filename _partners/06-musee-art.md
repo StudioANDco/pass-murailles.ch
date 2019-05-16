@@ -11,7 +11,7 @@ l’Ecole de Savièse et l’art contemporain,
 la collection du Musée d’art
 du Valais se présente à travers un
 parcours original, thématique et
-ponctué d’artistes (Ritz, Biéler,
+ponctué d’artistes de renom (Ritz, Biéler,
 Burnat-Provins, Vallet, Duarte,
 Carron). On y découvre des œuvres
 dialoguant sur le sublime des Alpes,
@@ -21,7 +21,7 @@ encore les enjeux climatiques du
 XXIème siècle. On profi te des expositions
 temporaires au Quatrième et
 sur Le Créneau, d’un parcours pour
-enfants, et tout cela en fl ânant à
+enfants, et tout cela en flânant à
 travers des châteaux médiévaux et
 des terrasses pittoresques.
 

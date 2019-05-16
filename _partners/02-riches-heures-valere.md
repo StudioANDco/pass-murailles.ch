@@ -7,20 +7,21 @@ value: CHF 30.- à CHF 50.-
 ---
 
 Grâce à une programmation
-spécifi que visant un niveau
-d’excellence, Les Riches Heures
-de Valère ont pour ambition
-d’explorer le créneau artistique
-de la musique ancienne et baroque,
-encore trop rarement
-proposé au public valaisan.
-Unissant leurs forces à celles
-d’autres partenaires culturels,
-elles offrent, depuis bientôt
-dix ans, dans le cadre magique
-de la basilique de Valère (XIème
-siècle) et de la vieille ville
-de Sion (église des Jésuites),
-des moments d’émotion et de
-spiritualité.
-
+spécifique visant l’excellence
+(Savall, Stile Antico, Scholl,
+Carmignola, Gabrieli Consort,
+Huelgas, King’s Singers, etc.),
+Les Riches Heures de Valère
+explorent depuis bientôt douze
+ans le créneau artistique de la
+musique ancienne et baroque,
+trop rarement proposé au public
+valaisan.
+Elles offrent dans le cadre
+magique de la basilique de
+Valère (11ème siècle) et de la
+vieille ville de Sion (église des
+Jésuites), des moments d’émotion, de spiritualité et de
+découverte, et s’adressent en
+toute simplicité aux passionnés
+de culture et plus particulièrement aux esprits curieux.

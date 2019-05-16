@@ -17,10 +17,11 @@ Les richesses patrimoniales de Sion
 deviennent alors objets de fi ction,
 prétextes au rire et à la détente.
 Ludique... et pas didactique !
+
 Les vendredis suivants à 18h18
-(précises) : 16 mars, 13 avril,
-18 mai, 15 juin, 7 septembre,
-5 octobre et 2 novembre 2018
+(précises) : 15 mars, 12 avril,
+17 mai, 14 juin, 6 septembre,
+et 4 octobre 2019
 
 Durée : 1 heure<br>
 Prix : CHF 10.- par personne

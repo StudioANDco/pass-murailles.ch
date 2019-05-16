@@ -15,6 +15,6 @@ aubépine sauvage, pivoine centenaire,
 platane, kiwi, houx et
 buis. On y oublie le temps et les
 soucis. Seul demeure le plaisir
-de partager un moment privilé-
-gié sous l’oeil attentif et discret
+de partager un moment privilégié
+sous l’oeil attentif et discret
 de nos serveuses et serveurs.

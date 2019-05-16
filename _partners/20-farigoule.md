@@ -23,7 +23,7 @@ parfumées, des cosmétiques,
 des produits ménagers et le
 véritable savon de Marseille.
 Engagée dans une démarche
-environnementale et de bien-
-être, La Farigoule vous offre
+environnementale et de bienêtre,
+La Farigoule vous offre
 une majorité de produits en
 vrac et labellisés bio.

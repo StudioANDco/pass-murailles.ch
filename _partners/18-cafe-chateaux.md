@@ -6,20 +6,26 @@ condition: "d’une valeur de CHF 15.-<br> dès CHF 50.- de repas et boissons<br
 value: CHF 15.- 
 ---
 
-Le Café des Châteaux: un restaurant
-aux saveurs méditerranéennes
-et traditionnelles à Sion.
-Le restaurant propose une cuisine
-authentique à base de produits
-frais, au cœur de la vieille
-ville de Sion.
+Dans notre vision des choses, le
+Café des Châteaux est un espace
+convivial et cosy. Canapés, jeux,
+grande tablée, on veut que chacun
+s’y sente à l’aise, comme à
+la maison. Le genre d’endroit
+où « viens boire une ! » et « on
+sort manger ? » se conjuguent
+à l’unisson. Nos portes sont
+grandes ouvertes de 09h à 23h
+(minuit le week-end).
 
-Notre carte propose des plats
-préparés avec les meilleurs
-produits du terroir. Le restaurant
-est spécialisé dans les plats de
-viandes et de poissons.
+La restauration est en main de
+notre chef Maxime et sa cuisine
+a une saveur de reviens-y. Une
+fois goûté au plat du jour, burgers,
+tartines, soupes, salades ou
+brunch, vous comprendrez. Les
+produits sont frais, de proximité
+et de saison.
 
-Le Café des Châteaux vous
-propose une nouvelle carte à
-chaque saison.
+On se réjouit de vous accueillir
+au plus vite !
