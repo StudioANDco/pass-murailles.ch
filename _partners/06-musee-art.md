@@ -18,7 +18,7 @@ dialoguant sur le sublime des Alpes,
 les paradis perdus de l’époque
 1900, les énergies de la nature ou
 encore les enjeux climatiques du
-XXIème siècle. On profi te des expositions
+XXIème siècle. On profite des expositions
 temporaires au Quatrième et
 sur Le Créneau, d’un parcours pour
 enfants, et tout cela en flânant à

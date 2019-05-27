@@ -10,7 +10,7 @@ Le Musée de la nature du
 Valais surprend et séduit petits et
 grands par son approche originale.
 Parcourir ses salles, c’est
-aussi être prêt à la réfl exion et
+aussi être prêt à la réflexion et
 au questionnement.
 
 Fini les traditionnelles vitrines

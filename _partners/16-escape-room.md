@@ -20,7 +20,7 @@ cadeau. Le saint était en effet
 parvenu à duper le Malin, qui se
 retrouva au service de l’homme
 d’église. Saint Théodule, sachant
-que lorsque sa vie prendrait fi n,
+que lorsque sa vie prendrait fin,
 le Diable se retrouverait alors
 libre, prit soin de l’enfermer dans
 un caveau. C’est ce caveau situé

@@ -2,7 +2,7 @@
 title: Le Sion Festival
 link: sion-festival.ch
 benefit: 1 entrée gratuite
-condition: "Du 17 août au 2 septembre<br> Réservation : Sion Festival, info@sion-festival.ch, 027 323 43 17 Directement sur place les soirs de concerts<br>(Catégorie 2 ou inférieure)"
+condition: "Du 17 août au 1er septembre<br> Réservation : Sion Festival, info@sion-festival.ch, <br> 027 323 43 17 Directement sur place les soirs de concerts<br>(Catégorie 2 ou inférieure)"
 value: CHF 30.- à CHF 80.-
 ---
 

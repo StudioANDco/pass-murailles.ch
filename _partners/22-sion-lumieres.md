@@ -1,7 +1,7 @@
 ---
 title: Sion en Lumières
 link: www.sionenlumieres.ch
-benefit: Du 19 juillet au 8 septembre<br> Spectacle gratuit
+benefit: Du 18 juillet au 7 septembre<br> Spectacle gratuit
 ---
 
 Chaque été, la Ville de Sion invite
